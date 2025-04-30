@@ -1,0 +1,40 @@
+p {color:blueviolet}
+/* a:link{
+    color: rgb(0, 255, 64);
+    background-color:transparent;
+    text-decoration:none;
+}
+a:visited{
+    color:rgb(243, 68, 211);
+    background-color:rgb(195, 127, 59);
+    text-decoration:none;
+}
+a:hover{
+    color:red;
+    background-color:transparent;
+    text-decoration: underline;
+}
+a:active{
+    color:yellow;
+    background-color: transparent;
+    text-decoration: underline;
+} */
+a:link,a:visited{
+    background-color: rgb(33, 140, 206);
+    color:white;
+    padding:5px 5px;
+    text-align:center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover,a:active{
+    background-color: rgb(216, 145, 44);
+}
+th{
+    /* background-color:palevioletred; */
+    padding: 10px;
+}
+td{
+    text-align:center;
+    /* background-color:rgb(186, 244, 224); */
+}
